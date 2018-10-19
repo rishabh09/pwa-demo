@@ -23,6 +23,7 @@
 </script>
 <script>
   // App install banner
+
   window.addEventListener('beforeinstallprompt', function (e) {
     e.userChoice.then(function (choiceResult) {
       console.log(choiceResult.outcome);
